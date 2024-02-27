@@ -296,7 +296,7 @@ background-color: #404BBF;
         align-items: center;
         justify-content: center;
         height: 112px;
-        background-color: #f4f4fd;
+        /* background-color: #f4f4fd; */
         border-radius: 4px;
         margin-bottom: 8px;
 }
@@ -305,6 +305,8 @@ background-color: #404BBF;
         display: flex;
         gap: 24px;
 margin-bottom: 8px;
+
+
                 /* padding: 24px 100px;
                 gap: 24px; */
 } 
@@ -318,12 +320,16 @@ margin-bottom: 8px;
                 border-radius: 4px;
                 width: 264px;
                 height: 112px;
-                background: #f4f4fd;
+                 background: #f4f4fd; 
 
                
         }
 
 
+/* .icons-list-title {
+        width:64px;
+        height: 64px;
+}         */
 
 .visually-hidden {
         position: absolute;
