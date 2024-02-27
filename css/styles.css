@@ -571,6 +571,13 @@ position: relative;
         border-top: none;
 }
 
+
+.container-img {
+        position: relative;
+        overflow: hidden;
+}
+
+
 .portfolio-list-title {
         
         font-weight: 500;
@@ -618,18 +625,21 @@ transform: translateY(0%);
 } */
 
 
-.portfolio-overlay {
+.portfolio-overlay-text {
 position: absolute;
 overflow: auto;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 top: 0;
 left: 0;
-width: 360px;
-height: 300px;
-padding: 40px 32px 164px 32px;
+width: 100%;
+height: 100%;
+padding: 40px 32px;
 background: #4d5ae5;
 color: #f4f4fd;
 transform: translateY(100%);
-transition: transform 250ms linear;
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* .portfolio-overlay {
