@@ -578,6 +578,11 @@ position: relative;
 }
 
 
+.container-img:hover .portfolio-overlay-text{
+        transform: translateY(0%);
+}
+
+
 .portfolio-list-title {
         
         font-weight: 500;
