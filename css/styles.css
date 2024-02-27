@@ -101,7 +101,7 @@ img {
 
 .menu {
         display: flex;
-        color: #404bbf;
+color: #2e2f42;
         gap: 40px;
         margin-right: auto;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -146,11 +146,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #404bbf;
-        /* color: #2e2f42; */
+        color: #2e2f42; 
         padding: 24px 0;
        display: block;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        /* color: #404bbf; */
 }
 
 
