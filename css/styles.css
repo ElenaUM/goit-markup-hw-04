@@ -439,7 +439,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
        padding-left: 16px;
         gap: 24px;
         margin-top: 8px;
-       
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* .team-list-icons:hover { 
@@ -735,8 +735,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         column-gap: 120px;
         margin-left: 120px;
 
-        margin-right: 120px
-       
+        margin-right: 120px;
+
         
 }  
 
