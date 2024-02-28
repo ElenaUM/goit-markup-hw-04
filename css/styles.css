@@ -109,6 +109,8 @@ img {
 }
 
 .meny-item {
+position: relative;
+
         padding: 24px 0;
         display: block;
         gap: 40px;
@@ -194,6 +196,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 .address-item { 
+position: relative;
+
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         } 
        
